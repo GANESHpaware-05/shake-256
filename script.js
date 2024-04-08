@@ -1,6 +1,6 @@
 function myFunction1() {
     // Get the text field
-    var copyText = document.getElementById("blake2s_output");
+    var copyText = document.getElementById("shake_256_output");
 
     // Select the text field
     copyText.select();

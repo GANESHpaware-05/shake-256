@@ -41,30 +41,75 @@ button {
     position: relative;
 } 
 button#generat{
-    margin-left: 73px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-left: 39px;
+
 }
-button#copy {
-    margin-left: 33px;
+button#generat:hover {
+    background-color: rgba(79, 69, 227, 0.708);
+    color: black;
+    box-shadow: 0 0 5px rgba(79, 69, 227, 0.708),
+                0 0 25px rgba(79, 69, 227, 0.708),
+                0 0 50px rgba(79, 69, 227, 0.708),
+                0 0 200px rgba(79, 69, 227, 0.708);
+                -webkit-box-reflect: below 1px linear-gradient(transparent,#0005) ;
 }
 button#copy1 {
-    margin-left: 33px;
+    margin-left: -1080px;
+    padding-bottom: 60px;
+    width: 40vh;
+    height: 1vh;
+    top: 127px;
+    padding: 27px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
 }
-
+button#copy1:hover {
+    background-color: rgba(216, 186, 18, 0.811);
+    color: black;
+    box-shadow: 0 0 5px rgba(216, 186, 18, 0.811),
+                0 0 25px rgba(216, 186, 18, 0.811),
+                0 0 50px rgba(216, 186, 18, 0.811),
+                0 0 200px rgba(216, 186, 18, 0.811);
+                -webkit-box-reflect: below 1px linear-gradient(transparent,#0005) ;
+}
 textarea#shake_256_output {
-    width: 50vh;
-    height: 8vh;
+    width: 58vh;
+    height: 9vh;
     text-align: center;
-    color: #2b2c2e;
+    color: #0a0000;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
-    padding-top: 85px;
-    background-color: rgba(255, 255, 255, 0.251);
-   
+    margin-left: 12px;
+   padding-bottom: 40px;
+    background-color: rgba(21, 126, 223, 0.429);
     font-size: 30px;
-    top: 62px;
+    top: 61px;
+    padding: 40px;
     position: relative;
-    border-radius: 15px;
+    border-radius: 17px;
+}
+textarea:hover {
+    background-color: rgba(79, 69, 227, 0.708);
+    color: black;
+    box-shadow: 0 0 5px rgba(79, 69, 227, 0.708),
+                0 0 25px rgba(79, 69, 227, 0.708),
+                0 0 50px rgba(79, 69, 227, 0.708),
+                0 0 200px rgba(79, 69, 227, 0.708);
+                -webkit-box-reflect: below 1px linear-gradient(transparent,#0005) ;
 }
 
 span {
@@ -78,6 +123,15 @@ input {
     background-color: rgb(129, 176, 176, 0.555);
     font-size: 36px;
 }
+input:hover {
+    background-color: rgba(79, 69, 227, 0.708);
+    color: black;
+    box-shadow: 0 0 5px rgba(79, 69, 227, 0.708),
+                0 0 25px rgba(79, 69, 227, 0.708),
+                0 0 50px rgba(79, 69, 227, 0.708),
+                0 0 200px rgba(79, 69, 227, 0.708);
+                -webkit-box-reflect: below 1px linear-gradient(transparent,#0005) ;
+}
 input#shake_256_input{
     text-align: center;
     background-color: rgba(21, 126, 223, 0.429);
@@ -86,6 +140,7 @@ input#shake_256_input{
     align-items: center;
     padding-bottom: 40px;
     color: rgba(17, 1, 1, 0.995);
+    border-radius: 17px;
 }
 
 
