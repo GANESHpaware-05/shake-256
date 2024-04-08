@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+background-color: black;
+background-image: url(newone.jpg) ;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(234, 159, 9);
+    font-size: 78px;
+}
+p{
+    text-align: center;
+    color: rgb(242, 239, 239);
+    font-size: 45px;
+}
+
+body{
+    background-color: beige;
+}
+i.fa-solid.fa-circle-arrow-right.fa-beat.fa-sm {
+    font-size: 38px;
+    margin-left: 45px;
+    margin-right: 42px;
+}
+button {
+    border-radius: 23px;
+    border: 8px solid rgba(9, 85, 191, 0.549);
+    size: 34px;
+    cursor: pointer;
+    cursor: pointer;
+    background-color: #13f1136c;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 80px 45px;
+    cursor: pointer;
+    position: relative;
+} 
+button#generat{
+    margin-left: 73px;
+}
+button#copy {
+    margin-left: 33px;
+}
+button#copy1 {
+    margin-left: 33px;
+}
+
+textarea#shake_256_output {
+    width: 50vh;
+    height: 8vh;
+    text-align: center;
+    color: #2b2c2e;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding-top: 85px;
+    background-color: rgba(255, 255, 255, 0.251);
+   
+    font-size: 30px;
+    top: 62px;
+    position: relative;
+    border-radius: 15px;
+}
+
+span {
+    color: rgb(87, 69, 221);
+}
+
+input {
+    margin-left:85px;
+    
+    padding: 22px;
+    background-color: rgb(129, 176, 176, 0.555);
+    font-size: 36px;
+}
+input#shake_256_input{
+    text-align: center;
+    background-color: rgba(21, 126, 223, 0.429);
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    color: rgba(17, 1, 1, 0.995);
+}
+
+
