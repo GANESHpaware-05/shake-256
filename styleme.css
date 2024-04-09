@@ -11,6 +11,7 @@ h1{
     font-size: 78px;
 }
 p{
+    top: 10px;
     text-align: center;
     color: rgb(242, 239, 239);
     font-size: 45px;
@@ -23,6 +24,9 @@ i.fa-solid.fa-circle-arrow-right.fa-beat.fa-sm {
     font-size: 38px;
     margin-left: 45px;
     margin-right: 42px;
+    top: 25px;
+    position: relative;
+
 }
 button {
     border-radius: 23px;
@@ -49,24 +53,23 @@ button#generat{
     font-weight: bold;
     transition: .5s;
     overflow: hidden;
-    margin-left: 39px;
-
+    margin-left: 109px;
+    top: -82px;
 }
 button#generat:hover {
-    background-color: rgba(79, 69, 227, 0.708);
+    background-color: rgba(233, 67, 222, 0.801);
     color: black;
-    box-shadow: 0 0 5px rgba(79, 69, 227, 0.708),
-                0 0 25px rgba(79, 69, 227, 0.708),
-                0 0 50px rgba(79, 69, 227, 0.708),
-                0 0 200px rgba(79, 69, 227, 0.708);
+    box-shadow: 0 0 5px rgba(233, 67, 222, 0.801),
+                0 0 25px rgba(233, 67, 222, 0.801),
+                0 0 50px rgba(233, 67, 222, 0.801),
+                0 0 200px rgba(233, 67, 222, 0.801);
                 -webkit-box-reflect: below 1px linear-gradient(transparent,#0005) ;
 }
 button#copy1 {
-    margin-left: -1080px;
-    padding-bottom: 60px;
-    width: 40vh;
+    margin-left: 117px;
+    width: 36vh;
     height: 1vh;
-    top: 127px;
+    top: 66px;
     padding: 27px;
     position: relative;
     display: inline-block;
@@ -87,17 +90,17 @@ button#copy1:hover {
                 -webkit-box-reflect: below 1px linear-gradient(transparent,#0005) ;
 }
 textarea#shake_256_output {
-    width: 58vh;
+    width: 46vh;
     height: 9vh;
     text-align: center;
     color: #0a0000;
     justify-content: center;
     align-items: center;
-    margin-left: 12px;
+    margin-left: -1082px;
    padding-bottom: 40px;
     background-color: rgba(21, 126, 223, 0.429);
     font-size: 30px;
-    top: 61px;
+    top: 137px;
     padding: 40px;
     position: relative;
     border-radius: 17px;
@@ -118,10 +121,13 @@ span {
 
 input {
     margin-left:85px;
-    
     padding: 22px;
     background-color: rgb(129, 176, 176, 0.555);
     font-size: 36px;
+}
+input{
+    top: -89px;
+    position: relative;
 }
 input:hover {
     background-color: rgba(79, 69, 227, 0.708);
